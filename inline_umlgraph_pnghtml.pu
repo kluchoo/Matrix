@@ -1,0 +1,7 @@
+@startuml inline_umlgraph_1.png
+class Matrix {
++Matrix()
++~Matrix()
+
+}
+@enduml
