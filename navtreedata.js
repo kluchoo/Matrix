@@ -42,7 +42,11 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Pliki", "files.html", [
-      [ "Lista plików", "files.html", "files_dup" ]
+      [ "Lista plików", "files.html", "files_dup" ],
+      [ "Składowe plików", "globals.html", [
+        [ "Wszystko", "globals.html", null ],
+        [ "Funkcje", "globals_func.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
