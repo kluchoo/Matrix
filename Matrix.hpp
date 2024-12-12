@@ -4,7 +4,7 @@
 class Matrix {
     private:
     int n;
-    int* tab = new int[n];
+    int** tab;
     public:
     Matrix();
     Matrix(int n, int* t);
