@@ -73,3 +73,26 @@ int Matrix::pokaz(int x, int y) {
     }
     return 0;
 }
+
+Matrix& Matrix::odwroc() {
+    if (tab != nullptr) {
+        int** newTab = new int* [n];
+        for (int i = 0; i < n; i++) {
+            newTab[i] = new int[n];
+            for (int j = 0; j < n; j++) {
+                newTab[i][j] = tab[j][i];
+            }
+        }
+
+        // Deallocate old memory
+        for (int i = 0; i < n; i++) {
+            delete[] tab[i];
+        }
+        delete[] tab;
+
+        // Assign new transposed matrix
+        tab = newTab;
+    }
+    return *this;
+}
+

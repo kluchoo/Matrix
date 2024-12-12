@@ -15,7 +15,9 @@ class Matrix {
     Matrix& alokuj(int n);
     Matrix& wstaw(int x, int y, int wartosc);
     int pokaz(int x, int y);
-
+    Matrix& odwroc(void);
 };
+
+
 
 #endif /* A7F977BB_AE3A_48CD_A727_8AFC90710D10 */
