@@ -14,6 +14,7 @@ class Matrix {
 
     Matrix& alokuj(int n);
     Matrix& wstaw(int x, int y, int wartosc);
+    int pokaz(int x, int y);
 
 };
 

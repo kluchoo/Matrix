@@ -64,3 +64,12 @@ Matrix& Matrix::wstaw(int x, int y, int wartosc) {
     }
     return *this;
 }
+
+int Matrix::pokaz(int x, int y) {
+    if (tab != nullptr) {
+        if (x < n && y < n) {
+            return tab[x][y];
+        }
+    }
+    return 0;
+}
