@@ -55,3 +55,12 @@ Matrix& Matrix::alokuj(int n) {
     }
     return *this;
 }
+
+Matrix& Matrix::wstaw(int x, int y, int wartosc) {
+    if (tab != nullptr) {
+        if (x < n && y < n) {
+            tab[x][y] = wartosc;
+        }
+    }
+    return *this;
+}
