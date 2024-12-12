@@ -1,5 +1,7 @@
 @startuml inline_umlgraph_1.png
 class Matrix {
+-n : int
+-tab : int**
 +Matrix()
 +Matrix(int n, int* t)
 +Matrix(Matrix& m)
