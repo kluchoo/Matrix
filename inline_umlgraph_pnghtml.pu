@@ -4,7 +4,6 @@ class Matrix {
 -tab : int**
 +Matrix()
 +Matrix(int n, int* t)
-+Matrix(Matrix& m)
 +~Matrix()
 
 }
