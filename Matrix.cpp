@@ -1,5 +1,12 @@
 #include "Matrix.hpp"
 
+Matrix::~Matrix() {
+    for (int i = 0; i < n; i++) {
+        delete[] tab[i];
+    }
+    delete[] tab;
+}
+
 Matrix::Matrix() : n(0), tab(nullptr) {}
 
 Matrix::Matrix(int n, int* t) : n(n) {
@@ -12,9 +19,4 @@ Matrix::Matrix(int n, int* t) : n(n) {
     }
 }
 
-Matrix::~Matrix() {
-    for (int i = 0; i < n; i++) {
-        delete[] tab[i];
-    }
-    delete[] tab;
-}
+Matrix::Matrix(Matrix& m) : n(m.n), tab(m.tab) {};
