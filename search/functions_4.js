@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wstaw_0',['wstaw',['../classMatrix.html#a4c51072cbc09f22715057260d901b746',1,'Matrix']]]
+  ['odwroc_0',['odwroc',['../classMatrix.html#a5b1bb742c2b57a692b7bfcc7310ea5b8',1,'Matrix']]]
 ];

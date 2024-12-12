@@ -7,6 +7,8 @@ class Matrix {
 +Matrix(Matrix& m)
 +~Matrix()
 +alokuj(int n) : Matrix&
++losuj() : Matrix&
++odwroc() : Matrix&
 +wstaw(int x, int y, int wartosc) : Matrix&
 +pokaz(int x, int y) : int
 
