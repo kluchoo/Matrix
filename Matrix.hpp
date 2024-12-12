@@ -3,7 +3,8 @@
 
 class Matrix {
     private:
-
+    int n;
+    int* tab = new int[n];
     public:
     Matrix();
     Matrix(int n, int* t);
