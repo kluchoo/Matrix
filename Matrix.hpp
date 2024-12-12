@@ -8,7 +8,7 @@ class Matrix {
     public:
     Matrix();
     Matrix(int n, int* t);
-    Matrix(Matrix& m);
+    // Matrix(Matrix& m);
     ~Matrix(void);
 };
 

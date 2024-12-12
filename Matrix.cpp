@@ -11,3 +11,10 @@ Matrix::Matrix(int n, int* t) : n(n) {
         }
     }
 }
+
+Matrix::~Matrix() {
+    for (int i = 0; i < n; i++) {
+        delete[] tab[i];
+    }
+    delete[] tab;
+}
