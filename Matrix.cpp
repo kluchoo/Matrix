@@ -1,4 +1,5 @@
 #include "Matrix.hpp"
+#include <stdlib.h>
 
 Matrix::~Matrix() {
     for (int i = 0; i < n; i++) {
@@ -92,6 +93,17 @@ Matrix& Matrix::odwroc() {
 
         // Assign new transposed matrix
         tab = newTab;
+    }
+    return *this;
+}
+
+Matrix& Matrix::losuj() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = rand() % 10;
+            }
+        }
     }
     return *this;
 }
