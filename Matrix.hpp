@@ -10,6 +10,9 @@ class Matrix {
     Matrix(int n, int* t);
     Matrix(Matrix& m);
     ~Matrix(void);
+
+
+    Matrix& alokuj(int n);
 };
 
 #endif /* A7F977BB_AE3A_48CD_A727_8AFC90710D10 */
