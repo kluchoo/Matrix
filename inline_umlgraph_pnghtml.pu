@@ -6,6 +6,9 @@ class Matrix {
 +Matrix(int n, int* t)
 +Matrix(Matrix& m)
 +~Matrix()
++alokuj(int n) : Matrix&
++wstaw(int x, int y, int wartosc) : Matrix&
++pokaz(int x, int y) : int
 
 }
 @enduml

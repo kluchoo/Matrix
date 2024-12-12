@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['generate_5fuml_5fcomment_0',['generate_uml_comment',['../namespaceconvert.html#abd05731199f07df2b996df31a5fe8df3',1,'convert']]]
+  ['alokuj_0',['alokuj',['../classMatrix.html#ab3f0a19323d5bd35dca008c68b99051d',1,'Matrix']]]
 ];
