@@ -179,5 +179,14 @@ Matrix& Matrix::wiersz(int x, int* t) {
     }
     return *this;
 }
-
+Matrix& Matrix::przekatna() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = (i == j) ? 1 : 0; // Set 1 on the diagonal and 0 elsewhere
+            }
+        }
+    }
+    return *this;
+}
 
