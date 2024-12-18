@@ -169,4 +169,15 @@ Matrix& Matrix::kolumna(int x, int* t) {
     return *this;
 }
 
+Matrix& Matrix::wiersz(int x, int* t) {
+    if (tab != nullptr) {
+        if (x < n) {
+            for (int i = 0; i < n; i++) {
+                tab[x][i] = t[i]; // Set row x from array t
+            }
+        }
+    }
+    return *this;
+}
+
 
