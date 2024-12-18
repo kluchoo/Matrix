@@ -15,6 +15,7 @@ var classMatrix =
     [ "pod_przekatna", "classMatrix.html#a94ae5c979b6a38c75ea10988c5319f34", null ],
     [ "pokaz", "classMatrix.html#aed115facfa208a9530c4acde26ffe9b4", null ],
     [ "przekatna", "classMatrix.html#a5a803eb1eddeeb51348addc3df4adfc4", null ],
+    [ "szachownica", "classMatrix.html#a2a25b5230363a7cbeac7a228abad5458", null ],
     [ "wiersz", "classMatrix.html#ab248526b2a9757b3134c8f605699d2af", null ],
     [ "wstaw", "classMatrix.html#a4c51072cbc09f22715057260d901b746", null ],
     [ "n", "classMatrix.html#a6f755dbfbefb9b4ba6c2b3acea8932f2", null ],
