@@ -23,6 +23,7 @@ class Matrix {
     Matrix& kolumna(int x, int* t); 
     Matrix& wiersz(int y, int* t);
     Matrix& przekatna(void); 
+    Matrix& pod_przekatna(void);
 };
 
 
