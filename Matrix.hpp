@@ -21,6 +21,7 @@ class Matrix {
     Matrix& diagonalna(int* t);
     Matrix& diagonalna_k(int k, int* t);
     Matrix& kolumna(int x, int* t); 
+    Matrix& wiersz(int y, int* t);
 };
 
 
