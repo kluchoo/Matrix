@@ -22,6 +22,7 @@ class Matrix {
     Matrix& diagonalna_k(int k, int* t);
     Matrix& kolumna(int x, int* t); 
     Matrix& wiersz(int y, int* t);
+    Matrix& przekatna(void); 
 };
 
 
