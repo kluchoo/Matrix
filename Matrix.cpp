@@ -190,3 +190,36 @@ Matrix& Matrix::przekatna() {
     return *this;
 }
 
+Matrix& Matrix::pod_przekatna() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = (i > j) ? 1 : 0; // Set 1 below the diagonal and 0 elsewhere
+            }
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::nad_przekatna() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = (i < j) ? 1 : 0; // Set 1 above the diagonal and 0 elsewhere
+            }
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::po_przekatnej() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = (i == j) ? 1 : 0; // Set 1 on the diagonal and 0 elsewhere
+            }
+        }
+    }
+    return *this;
+}
+
