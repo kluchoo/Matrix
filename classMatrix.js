@@ -7,6 +7,7 @@ var classMatrix =
     [ "alokuj", "classMatrix.html#ab3f0a19323d5bd35dca008c68b99051d", null ],
     [ "diagonalna", "classMatrix.html#a58be50b5cc890341c14b1a9b370ab3ea", null ],
     [ "diagonalna_k", "classMatrix.html#adc718e6ae5b2a8b3943a4e8c4bc53d9e", null ],
+    [ "kolumna", "classMatrix.html#a07c8cf926bbe71edb6b6de6651e3c3ff", null ],
     [ "losuj", "classMatrix.html#a381bbe46892c80e0837e1080eea9943e", null ],
     [ "losuj", "classMatrix.html#a9890f7ceadc64dfce30c453bc766fbc1", null ],
     [ "odwroc", "classMatrix.html#a5b1bb742c2b57a692b7bfcc7310ea5b8", null ],
