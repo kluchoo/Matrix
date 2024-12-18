@@ -138,4 +138,23 @@ Matrix& Matrix::diagonalna(int* t) {
     return *this;
 }
 
+Matrix& Matrix::diagonalna_k(int k, int* t) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = 0; // Initialize all elements to 0
+            }
+        }
+        if (k >= 0) {
+            for (int i = 0; i < n - k; i++) {
+                tab[i][i + k] = t[i]; // Set elements k positions above diagonal from array t
+            }
+        } else {
+            for (int i = 0; i < n + k; i++) {
+                tab[i - k][i] = t[i]; // Set elements k positions below diagonal from array t
+            }
+        }
+    }
+    return *this;
+}
 
