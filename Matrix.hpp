@@ -24,6 +24,7 @@ class Matrix {
     Matrix& wiersz(int y, int* t);
     Matrix& przekatna(void); 
     Matrix& pod_przekatna(void);
+    Matrix& nad_przekatna(void);
 };
 
 
