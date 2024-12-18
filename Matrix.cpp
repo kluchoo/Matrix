@@ -108,3 +108,19 @@ Matrix& Matrix::losuj() {
     return *this;
 }
 
+Matrix& Matrix::losuj(int x) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = 0; // Initialize all elements to 0
+            }
+        }
+        for (int i = 0; i < x; i++) {
+            int randX = rand() % n;
+            int randY = rand() % n;
+            tab[randX][randY] = rand() % 10; // Fill with random digit from 0 to 9
+        }
+    }
+    return *this;
+}
+

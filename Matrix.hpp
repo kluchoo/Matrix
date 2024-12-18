@@ -17,7 +17,8 @@ class Matrix {
     int pokaz(int x, int y);
     Matrix& odwroc(void);
     Matrix& losuj(void);
-
+    Matrix& losuj(int x);
+    
 };
 
 
