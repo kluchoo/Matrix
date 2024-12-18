@@ -25,6 +25,7 @@ class Matrix {
     Matrix& przekatna(void); 
     Matrix& pod_przekatna(void);
     Matrix& nad_przekatna(void);
+    Matrix& szachownica(void);
 };
 
 
