@@ -158,3 +158,15 @@ Matrix& Matrix::diagonalna_k(int k, int* t) {
     return *this;
 }
 
+Matrix& Matrix::kolumna(int x, int* t) {
+    if (tab != nullptr) {
+        if (x < n) {
+            for (int i = 0; i < n; i++) {
+                tab[i][x] = t[i]; // Set column x from array t
+            }
+        }
+    }
+    return *this;
+}
+
+
