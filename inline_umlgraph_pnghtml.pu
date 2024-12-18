@@ -12,6 +12,7 @@ class Matrix {
 +kolumna(int x, int* t) : Matrix&
 +losuj() : Matrix&
 +losuj(int x) : Matrix&
++nad_przekatna() : Matrix&
 +odwroc() : Matrix&
 +pod_przekatna() : Matrix&
 +przekatna() : Matrix&

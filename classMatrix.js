@@ -10,6 +10,7 @@ var classMatrix =
     [ "kolumna", "classMatrix.html#a07c8cf926bbe71edb6b6de6651e3c3ff", null ],
     [ "losuj", "classMatrix.html#a381bbe46892c80e0837e1080eea9943e", null ],
     [ "losuj", "classMatrix.html#a9890f7ceadc64dfce30c453bc766fbc1", null ],
+    [ "nad_przekatna", "classMatrix.html#a026951ec56444ea55bebfdf29595bc79", null ],
     [ "odwroc", "classMatrix.html#a5b1bb742c2b57a692b7bfcc7310ea5b8", null ],
     [ "pod_przekatna", "classMatrix.html#a94ae5c979b6a38c75ea10988c5319f34", null ],
     [ "pokaz", "classMatrix.html#aed115facfa208a9530c4acde26ffe9b4", null ],

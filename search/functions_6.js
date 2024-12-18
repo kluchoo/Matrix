@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['odwroc_0',['odwroc',['../classMatrix.html#a5b1bb742c2b57a692b7bfcc7310ea5b8',1,'Matrix']]]
+  ['nad_5fprzekatna_0',['nad_przekatna',['../classMatrix.html#a026951ec56444ea55bebfdf29595bc79',1,'Matrix']]]
 ];
