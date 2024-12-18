@@ -18,8 +18,10 @@ class Matrix {
     Matrix& odwroc(void);
     Matrix& losuj(void);
     Matrix& losuj(int x);
-    
+    Matrix& diagonalna(int* t);
 };
+
+
 
 
 

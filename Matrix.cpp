@@ -124,3 +124,18 @@ Matrix& Matrix::losuj(int x) {
     return *this;
 }
 
+Matrix& Matrix::diagonalna(int* t) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = 0; // Initialize all elements to 0
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            tab[i][i] = t[i]; // Set diagonal elements from array t
+        }
+    }
+    return *this;
+}
+
+
