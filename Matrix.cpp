@@ -233,3 +233,14 @@ Matrix& Matrix::pod_przekatna() {
     }
     return *this;
 }
+
+Matrix& Matrix::szachownica() {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] = (i + j) % 2; // Set 1 if sum of indices is odd, 0 otherwise
+            }
+        }
+    }
+    return *this;
+}
