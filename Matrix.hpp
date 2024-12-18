@@ -20,6 +20,7 @@ class Matrix {
     Matrix& losuj(int x);
     Matrix& diagonalna(int* t);
     Matrix& diagonalna_k(int k, int* t);
+    Matrix& kolumna(int x, int* t); 
 };
 
 
