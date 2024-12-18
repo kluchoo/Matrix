@@ -7,6 +7,7 @@ class Matrix {
 +Matrix(Matrix& m)
 +~Matrix()
 +alokuj(int n) : Matrix&
++diagonalna(int* t) : Matrix&
 +losuj() : Matrix&
 +losuj(int x) : Matrix&
 +odwroc() : Matrix&

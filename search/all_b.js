@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tab_0',['tab',['../classMatrix.html#af45069dcccaf5064534287376925dde9',1,'Matrix']]]
+  ['starting_5fpoints_0',['starting_points',['../namespaceconvert.html#aef25b168b8e7ee81120d043894842f61',1,'convert']]],
+  ['stripped_5fline_1',['stripped_line',['../namespaceconvert.html#adbdbc6c6f1347d826ea8f1fd5df63479',1,'convert']]]
 ];

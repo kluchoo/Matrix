@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['losuj_0',['losuj',['../classMatrix.html#a9890f7ceadc64dfce30c453bc766fbc1',1,'Matrix::losuj(void)'],['../classMatrix.html#a381bbe46892c80e0837e1080eea9943e',1,'Matrix::losuj(int x)']]]
+  ['generate_5fuml_5fcomment_0',['generate_uml_comment',['../namespaceconvert.html#abd05731199f07df2b996df31a5fe8df3',1,'convert']]]
 ];
