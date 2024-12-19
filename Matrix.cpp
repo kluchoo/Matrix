@@ -396,3 +396,19 @@ std::ostream& operator<<(std::ostream& o, Matrix& m) {
     }
     return o;
 }
+
+bool Matrix::operator==(const Matrix& m) {
+    if (tab != nullptr && m.tab != nullptr) {
+        if (n == m.n) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (tab[i][j] != m.tab[i][j]) {
+                        return false; // If any element is different, return false
+                    }
+                }
+            }
+            return true; // If all elements are the same, return true
+        }
+    }
+    return false; // If sizes are different, return false
+}

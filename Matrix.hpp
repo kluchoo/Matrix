@@ -42,6 +42,7 @@ class Matrix {
     Matrix& operator*=(int a);
     // Matrix& operator(double);
     friend std::ostream& operator<<(std::ostream& o, Matrix& m);
+    bool operator==(const Matrix& m);
 };
 
 
