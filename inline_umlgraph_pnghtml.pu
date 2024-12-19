@@ -14,6 +14,11 @@ class Matrix {
 +losuj(int x) : Matrix&
 +nad_przekatna() : Matrix&
 +odwroc() : Matrix&
++operator*(Matrix& m) : Matrix&
++operator*(int a) : Matrix&
++operator+(Matrix& m) : Matrix&
++operator+(int a) : Matrix&
++operator-(int a) : Matrix&
 +pod_przekatna() : Matrix&
 +przekatna() : Matrix&
 +szachownica() : Matrix&
