@@ -340,3 +340,14 @@ Matrix& Matrix::operator++(int) {
     }
     return *this;
 }
+
+Matrix& Matrix::operator--(int) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j]--; // Decrement all elements
+            }
+        }
+    }
+    return *this;
+}
