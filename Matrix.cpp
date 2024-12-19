@@ -257,3 +257,30 @@ Matrix& Matrix::operator+(Matrix& m) {
     }
     return *this;
 }
+
+Matrix& Matrix::operator*(Matrix& m) {
+    if (tab != nullptr && m.tab != nullptr) {
+        if (n == m.n) {
+            int** newTab = new int* [n];
+            for (int i = 0; i < n; i++) {
+                newTab[i] = new int[n];
+                for (int j = 0; j < n; j++) {
+                    newTab[i][j] = 0;
+                    for (int k = 0; k < n; k++) {
+                        newTab[i][j] += tab[i][k] * m.tab[k][j]; // Multiply corresponding elements
+                    }
+                }
+            }
+
+            // Deallocate old memory
+            for (int i = 0; i < n; i++) {
+                delete[] tab[i];
+            }
+            delete[] tab;
+
+            // Assign new multiplied matrix
+            tab = newTab;
+        }
+    }
+    return *this;
+}

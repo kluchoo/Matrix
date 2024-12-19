@@ -27,6 +27,7 @@ class Matrix {
     Matrix& nad_przekatna(void);
     Matrix& szachownica(void);
     Matrix& operator+(Matrix& m); 
+    Matrix& operator*(Matrix& m);
 };
 
 
