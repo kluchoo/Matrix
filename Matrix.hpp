@@ -43,6 +43,7 @@ class Matrix {
     // Matrix& operator(double);
     friend std::ostream& operator<<(std::ostream& o, Matrix& m);
     bool operator==(const Matrix& m);
+    bool operator>(const Matrix& m);
 };
 
 
