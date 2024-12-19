@@ -1,3 +1,4 @@
+#include <ostream>
 #ifndef A7F977BB_AE3A_48CD_A727_8AFC90710D10
 #define A7F977BB_AE3A_48CD_A727_8AFC90710D10
 
@@ -40,6 +41,7 @@ class Matrix {
     Matrix& operator-=(int a);
     Matrix& operator*=(int a);
     // Matrix& operator(double);
+    friend std::ostream& operator<<(std::ostream& o, Matrix& m);
 };
 
 

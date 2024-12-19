@@ -384,3 +384,15 @@ Matrix& Matrix::operator*=(int a) {
     }
     return *this;
 }
+
+std::ostream& operator<<(std::ostream& o, Matrix& m) {
+    if (m.tab != nullptr) {
+        for (int i = 0; i < m.n; i++) {
+            for (int j = 0; j < m.n; j++) {
+                o << m.tab[i][j] << " ";
+            }
+            o << std::endl;
+        }
+    }
+    return o;
+}
