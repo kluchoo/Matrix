@@ -30,6 +30,7 @@ class Matrix {
     Matrix& operator*(Matrix& m);
     Matrix& operator+(int a); 
     Matrix& operator*(int a); 
+    Matrix& operator-(int a); 
 };
 
 
