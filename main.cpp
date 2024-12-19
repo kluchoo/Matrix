@@ -32,17 +32,27 @@ int main() {
     // Testowanie metod
     m3.alokuj(size);
     m3.losuj();
+    cout << "losuj:\n" << m3 << endl;
     m3.wstaw(0, 0, 5);
     cout << "Element (0,0): " << m3.pokaz(0, 0) << endl;
     m3.odwroc();
+    cout << "odwroc:\n" << m3 << endl;
     m3.diagonalna(data);
-    m3.diagonalna_k(1, data);
+    cout << "diagonalna:\n" << m3 << endl;
+    m3.diagonalna_k(-1, data);
+    cout << "diagonalna_k(-1):\n" << m3 << endl;
     m3.kolumna(0, data);
+    cout << "kolumna(0):\n" << m3 << endl;
     m3.wiersz(0, data);
+    cout << "wiersz(0):\n" << m3 << endl;
     m3.przekatna();
+    cout << "przekatna:\n" << m3 << endl;
     m3.pod_przekatna();
+    cout << "pod_przekatna:\n" << m3 << endl;
     m3.nad_przekatna();
+    cout << "nad_przekatna:\n" << m3 << endl;
     m3.szachownica();
+    cout << "szachownica:\n" << m3 << endl;
 
     // Operatory
     Matrix m4 = m1 + m2;
