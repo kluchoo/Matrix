@@ -284,3 +284,14 @@ Matrix& Matrix::operator*(Matrix& m) {
     }
     return *this;
 }
+
+Matrix& Matrix::operator+(int a) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j] += a; // Add a to all elements
+            }
+        }
+    }
+    return *this;
+}

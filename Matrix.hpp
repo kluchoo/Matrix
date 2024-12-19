@@ -28,6 +28,7 @@ class Matrix {
     Matrix& szachownica(void);
     Matrix& operator+(Matrix& m); 
     Matrix& operator*(Matrix& m);
+    Matrix& operator+(int a); 
 };
 
 
