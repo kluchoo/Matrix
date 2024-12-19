@@ -244,3 +244,16 @@ Matrix& Matrix::szachownica() {
     }
     return *this;
 }
+
+Matrix& Matrix::operator+(Matrix& m) {
+    if (tab != nullptr && m.tab != nullptr) {
+        if (n == m.n) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    tab[i][j] += m.tab[i][j]; // Add corresponding elements
+                }
+            }
+        }
+    }
+    return *this;
+}
