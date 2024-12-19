@@ -317,3 +317,14 @@ Matrix& Matrix::operator-(int a) {
     }
     return *this;
 }
+
+Matrix operator+(int a, Matrix& m) {
+    if (m.tab != nullptr) {
+        for (int i = 0; i < m.n; i++) {
+            for (int j = 0; j < m.n; j++) {
+                m.tab[i][j] += a; // Add a to all elements
+            }
+        }
+    }
+    return m;
+}
