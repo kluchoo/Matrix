@@ -6,6 +6,9 @@ class Matrix {
 +Matrix(int n, int* t)
 +Matrix(Matrix& m)
 +~Matrix()
++operator*(int a, Matrix& m) : Matrix
++operator+(int a, Matrix& m) : Matrix
++operator-(int a, Matrix& m) : Matrix
 +alokuj(int n) : Matrix&
 +diagonalna(int* t) : Matrix&
 +diagonalna_k(int k, int* t) : Matrix&
@@ -16,15 +19,24 @@ class Matrix {
 +odwroc() : Matrix&
 +operator*(Matrix& m) : Matrix&
 +operator*(int a) : Matrix&
++operator*=(int a) : Matrix&
 +operator+(Matrix& m) : Matrix&
 +operator+(int a) : Matrix&
++operator++(int) : Matrix&
++operator+=(int a) : Matrix&
 +operator-(int a) : Matrix&
++operator--(int) : Matrix&
++operator-=(int a) : Matrix&
 +pod_przekatna() : Matrix&
 +przekatna() : Matrix&
 +szachownica() : Matrix&
 +wiersz(int y, int* t) : Matrix&
 +wstaw(int x, int y, int wartosc) : Matrix&
++operator<(const Matrix& m) : bool
++operator==(const Matrix& m) : bool
++operator>(const Matrix& m) : bool
 +pokaz(int x, int y) : int
++operator<<(std::ostream& o, Matrix& m) : std :: ostream&
 
 }
 @enduml
