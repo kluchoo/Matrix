@@ -329,3 +329,14 @@ Matrix operator-(int a, Matrix& m) {
     }
     return m;
 }
+
+Matrix& Matrix::operator++(int) {
+    if (tab != nullptr) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tab[i][j]++; // Increment all elements
+            }
+        }
+    }
+    return *this;
+}

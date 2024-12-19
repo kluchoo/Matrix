@@ -34,6 +34,7 @@ class Matrix {
     friend Matrix operator+(int a, Matrix& m);
     friend Matrix operator*(int a, Matrix& m);
     friend Matrix operator-(int a, Matrix& m);
+    Matrix& operator++(int);
 };
 
 
