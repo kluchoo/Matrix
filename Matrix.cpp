@@ -318,3 +318,14 @@ Matrix operator*(int a, Matrix& m) {
     }
     return m;
 }
+
+Matrix operator-(int a, Matrix& m) {
+    if (m.tab != nullptr) {
+        for (int i = 0; i < m.n; i++) {
+            for (int j = 0; j < m.n; j++) {
+                m.tab[i][j] = a - m.tab[i][j]; // Subtract all elements from a
+            }
+        }
+    }
+    return m;
+}
