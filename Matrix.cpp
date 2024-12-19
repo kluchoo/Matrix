@@ -429,3 +429,20 @@ bool Matrix::operator>(const Matrix& m) {
     }
     return false; // If sizes are different, return false
 }
+
+bool Matrix::operator<(const Matrix& m) {
+    if (tab != nullptr && m.tab != nullptr) {
+        if (n == m.n) {
+            int sum1 = 0;
+            int sum2 = 0;
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    sum1 += tab[i][j]; // Calculate sum of elements in this matrix
+                    sum2 += m.tab[i][j]; // Calculate sum of elements in other matrix
+                }
+            }
+            return sum1 < sum2; // Return true if sum of elements in this matrix is smaller
+        }
+    }
+    return false; // If sizes are different, return false
+}
