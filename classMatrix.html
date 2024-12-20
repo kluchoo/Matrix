@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project<span id="projectnumber">&#160;v0.0.8</span>
+   <div id="projectname">My Project<span id="projectnumber">&#160;v0.0.9</span>
    </div>
    <div id="projectbrief">Implementacja</div>
   </td>
@@ -108,23 +108,33 @@ $(function(){initNavTree('classMatrix.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
+<p>Klasa reprezentująca macierz.  
+ <a href="#details">Więcej...</a></p>
+
 <p><code>#include &lt;<a class="el" href="Matrix_8hpp_source.html">Matrix.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Metody publiczne</h2></td></tr>
 <tr class="memitem:a2dba13c45127354c9f75ef576f49269b" id="r_a2dba13c45127354c9f75ef576f49269b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dba13c45127354c9f75ef576f49269b">Matrix</a> ()</td></tr>
+<tr class="memdesc:a2dba13c45127354c9f75ef576f49269b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor domyślny.  <br /></td></tr>
 <tr class="separator:a2dba13c45127354c9f75ef576f49269b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3637f6ad376fdc053d595bce3e17ec02" id="r_a3637f6ad376fdc053d595bce3e17ec02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3637f6ad376fdc053d595bce3e17ec02">Matrix</a> (int <a class="el" href="#a6f755dbfbefb9b4ba6c2b3acea8932f2">n</a>, int *t)</td></tr>
+<tr class="memdesc:a3637f6ad376fdc053d595bce3e17ec02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor inicjalizujący macierz o rozmiarze n.  <br /></td></tr>
 <tr class="separator:a3637f6ad376fdc053d595bce3e17ec02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c99503d4e4b31c5e73eceef9c7e1d0" id="r_af4c99503d4e4b31c5e73eceef9c7e1d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4c99503d4e4b31c5e73eceef9c7e1d0">Matrix</a> (<a class="el" href="classMatrix.html">Matrix</a> &amp;m)</td></tr>
+<tr class="memdesc:af4c99503d4e4b31c5e73eceef9c7e1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor kopiujący.  <br /></td></tr>
 <tr class="separator:af4c99503d4e4b31c5e73eceef9c7e1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e496da93f0e3165a0dc82d79f7ba545" id="r_a7e496da93f0e3165a0dc82d79f7ba545"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e496da93f0e3165a0dc82d79f7ba545">~Matrix</a> (void)</td></tr>
+<tr class="memdesc:a7e496da93f0e3165a0dc82d79f7ba545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor.  <br /></td></tr>
 <tr class="separator:a7e496da93f0e3165a0dc82d79f7ba545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3f0a19323d5bd35dca008c68b99051d" id="r_ab3f0a19323d5bd35dca008c68b99051d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f0a19323d5bd35dca008c68b99051d">alokuj</a> (int <a class="el" href="#a6f755dbfbefb9b4ba6c2b3acea8932f2">n</a>)</td></tr>
+<tr class="memdesc:ab3f0a19323d5bd35dca008c68b99051d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alokuje pamięć dla macierzy o rozmiarze n.  <br /></td></tr>
 <tr class="separator:ab3f0a19323d5bd35dca008c68b99051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c51072cbc09f22715057260d901b746" id="r_a4c51072cbc09f22715057260d901b746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c51072cbc09f22715057260d901b746">wstaw</a> (int x, int y, int wartosc)</td></tr>
+<tr class="memdesc:a4c51072cbc09f22715057260d901b746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wstawia wartość do macierzy.  <br /></td></tr>
 <tr class="separator:a4c51072cbc09f22715057260d901b746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed115facfa208a9530c4acde26ffe9b4" id="r_aed115facfa208a9530c4acde26ffe9b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed115facfa208a9530c4acde26ffe9b4">pokaz</a> (int x, int y)</td></tr>
+<tr class="memdesc:aed115facfa208a9530c4acde26ffe9b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwraca wartość z macierzy.  <br /></td></tr>
 <tr class="separator:aed115facfa208a9530c4acde26ffe9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b1bb742c2b57a692b7bfcc7310ea5b8" id="r_a5b1bb742c2b57a692b7bfcc7310ea5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1bb742c2b57a692b7bfcc7310ea5b8">odwroc</a> (void)</td></tr>
 <tr class="separator:a5b1bb742c2b57a692b7bfcc7310ea5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +159,7 @@ Metody publiczne</h2></td></tr>
 <tr class="memitem:a2a25b5230363a7cbeac7a228abad5458" id="r_a2a25b5230363a7cbeac7a228abad5458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a25b5230363a7cbeac7a228abad5458">szachownica</a> (void)</td></tr>
 <tr class="separator:a2a25b5230363a7cbeac7a228abad5458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cc7127ce96c997c9d14f1f8874ed742" id="r_a7cc7127ce96c997c9d14f1f8874ed742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc7127ce96c997c9d14f1f8874ed742">operator+</a> (<a class="el" href="classMatrix.html">Matrix</a> &amp;m)</td></tr>
+<tr class="memdesc:a7cc7127ce96c997c9d14f1f8874ed742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator dodawania macierzy.  <br /></td></tr>
 <tr class="separator:a7cc7127ce96c997c9d14f1f8874ed742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1bc7e1fda06dab52353ac01b3196efd" id="r_ae1bc7e1fda06dab52353ac01b3196efd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1bc7e1fda06dab52353ac01b3196efd">operator*</a> (<a class="el" href="classMatrix.html">Matrix</a> &amp;m)</td></tr>
 <tr class="separator:ae1bc7e1fda06dab52353ac01b3196efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +180,7 @@ Metody publiczne</h2></td></tr>
 <tr class="memitem:a0997fe9dfbfae4b088628ef4b057ac91" id="r_a0997fe9dfbfae4b088628ef4b057ac91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0997fe9dfbfae4b088628ef4b057ac91">operator*=</a> (int a)</td></tr>
 <tr class="separator:a0997fe9dfbfae4b088628ef4b057ac91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37285ebf9e6f823ac0e54d01b9f3822f" id="r_a37285ebf9e6f823ac0e54d01b9f3822f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37285ebf9e6f823ac0e54d01b9f3822f">operator==</a> (const <a class="el" href="classMatrix.html">Matrix</a> &amp;m)</td></tr>
+<tr class="memdesc:a37285ebf9e6f823ac0e54d01b9f3822f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator porównania macierzy.  <br /></td></tr>
 <tr class="separator:a37285ebf9e6f823ac0e54d01b9f3822f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e32ec219cdf201d3ed8b48f71a3ae5" id="r_a81e32ec219cdf201d3ed8b48f71a3ae5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81e32ec219cdf201d3ed8b48f71a3ae5">operator&gt;</a> (const <a class="el" href="classMatrix.html">Matrix</a> &amp;m)</td></tr>
 <tr class="separator:a81e32ec219cdf201d3ed8b48f71a3ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +206,8 @@ Przyjaciele</h2></td></tr>
 <tr class="separator:aae893ba1cd6068e33ff767bbd45450ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
-<div class="textblock"><div class="plantumlgraph">
+<div class="textblock"><p>Klasa reprezentująca macierz. </p>
+<div class="plantumlgraph">
 <img src="inline_umlgraph_1.png" />
 </div>
  </div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
@@ -212,6 +225,8 @@ Przyjaciele</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Konstruktor domyślny. </p>
 
 </div>
 </div>
@@ -234,6 +249,15 @@ Przyjaciele</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Konstruktor inicjalizujący macierz o rozmiarze n. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Rozmiar macierzy. </td></tr>
+    <tr><td class="paramname">t</td><td>Tablica jednowymiarowa z wartościami do inicjalizacji. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af4c99503d4e4b31c5e73eceef9c7e1d0" name="af4c99503d4e4b31c5e73eceef9c7e1d0"></a>
@@ -250,6 +274,14 @@ Przyjaciele</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Konstruktor kopiujący. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>Obiekt klasy <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a> do skopiowania. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -268,6 +300,8 @@ Przyjaciele</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Destruktor. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Dokumentacja funkcji składowych</h2>
@@ -285,6 +319,15 @@ Przyjaciele</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Alokuje pamięć dla macierzy o rozmiarze n. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Rozmiar macierzy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Referencja do obiektu <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a>. </dd></dl>
 
 </div>
 </div>
@@ -498,6 +541,15 @@ Przyjaciele</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Operator dodawania macierzy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>Obiekt klasy <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a> do dodania. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Referencja do obiektu <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a>. </dd></dl>
+
 </div>
 </div>
 <a id="a1a1b4ee78cb7723c5e66ff9369d66e5f" name="a1a1b4ee78cb7723c5e66ff9369d66e5f"></a>
@@ -617,6 +669,15 @@ Przyjaciele</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Operator porównania macierzy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>Obiekt klasy <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a> do porównania. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>True, jeśli macierze są równe. </dd></dl>
+
 </div>
 </div>
 <a id="a81e32ec219cdf201d3ed8b48f71a3ae5" name="a81e32ec219cdf201d3ed8b48f71a3ae5"></a>
@@ -671,6 +732,16 @@ Przyjaciele</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Zwraca wartość z macierzy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Współrzędna x. </td></tr>
+    <tr><td class="paramname">y</td><td>Współrzędna y. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartość z macierzy. </dd></dl>
 
 </div>
 </div>
@@ -752,6 +823,17 @@ Przyjaciele</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Wstawia wartość do macierzy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Współrzędna x. </td></tr>
+    <tr><td class="paramname">y</td><td>Współrzędna y. </td></tr>
+    <tr><td class="paramname">wartosc</td><td>Wartość do wstawienia. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Referencja do obiektu <a class="el" href="classMatrix.html" title="Klasa reprezentująca macierz.">Matrix</a>. </dd></dl>
 
 </div>
 </div>
@@ -892,6 +974,7 @@ Przyjaciele</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Rozmiar macierzy. </p>
 
 </div>
 </div>
@@ -914,6 +997,7 @@ Przyjaciele</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Tablica dwuwymiarowa przechowująca elementy macierzy. </p>
 
 </div>
 </div>
