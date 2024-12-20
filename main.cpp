@@ -68,8 +68,25 @@ int main() {
 
     // Porównania
     bool isEqual = (m1 == m2);
+    if (isEqual) {
+        cout << "Macierze są równe\n";
+    } else {
+        cout << "Macierze nie są równe\n";
+    }
+
     bool isGreater = (m1 > m2);
+    if (isGreater) {
+        cout << "Macierz m1 jest większa od m2\n";
+    } else {
+        cout << "Macierz m1 nie jest większa od m2\n";
+    }
+
     bool isLess = (m1 < m2);
+    if (isLess) {
+        cout << "Macierz m1 jest mniejsza od m2\n";
+    } else {
+        cout << "Macierz m1 nie jest mniejsza od m2\n";
+    }
 
     // Wyświetlanie macierzy
     cout << m1 << endl;
